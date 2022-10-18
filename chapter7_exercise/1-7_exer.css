@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  widows: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom; /* 背景画像を中央に配置 */
+}
+
+.header-text {
+  padding: 20px 0 0 20px;
+  color: #6c6b6b;
+}
+
+main {
+  width: 840px;
+  /*display: flex;*/
+  /*justify-content: flex-start;*/
+  margin: 50px auto;
+}
+
+.service_1 {
+  /*width: 840px;*/
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.service_2 {
+  /*width: 840px;*/
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.service_3 {
+  /*width: 840px;*/
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.service_4 {
+  /*width: 840px;*/
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
