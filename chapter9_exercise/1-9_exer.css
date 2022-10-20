@@ -1,67 +1,66 @@
-/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h3 {
-  margin: 5px 10px;
-}
-
-.header {
+header {
   height: 50px;
   background-color: #ff9a4b;
 }
 
-.contents {
+main {
   width: 960px;
   margin: 50px auto;
-  position: relative;
-  display: flex; /*Flexboxの利用*/
+  display: flex;
 }
 
-.contents-item {
+.contents {
   width: 300px;
+  padding: 10px;
   margin-right: 30px;
   background-color: #eee;
+  position: relative; /* #socialの基準位置を相対位置へ変更する */
 }
 
-.contents-item:nth-child(3) {
-  margin-right: 0px;
+.contents:last-child {
+  margin-right: 0;
+}
+
+.step {
+  color: #fff;
+  background-color: #ff9a4b;
+  position: absolute; /* contentsの左上を基準に絶対位置で指定する */
+  top: 0;
+  left: 0;
+}
+
+.title {
+  margin-top: 15px 0 5px;
 }
 
 .image1 {
-  background-image: url(img/flow01.png);
-}
-
-.image2 {
-  background-image: url(img/flow02.png);
-}
-
-.image3 {
-  background-image: url(img/flow03.png);
-}
-
-.image1,.image2,.image3 {
   height: 150px;
-  width: 280px;
-  margin: 10px;
+  background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 
-.step {
-  position: absolute;
-  background-color: #ff9a4b;
-  color: #fff;
+.image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
-.sentence {
-  margin: 0 10px 10px 10px;
+.image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
-.footer {
+footer {
   height: 50px;
   background-color: #aaa;
 }
