@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #FF00FF;
+}
+
+.main_right {
+  main-width: 700px;
+  padding: 20px;
+  background-color: #00B522;
+}
+
+.main-box {
+  height: 130px;
+  margin: 10px;
+  background-color: #FFF75A;
+}
+
+.main_left {
+  width: 300px;
+  background-color: #D8FFB6;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #52A1FF;
+}
+
+.footer_img {
+  height: 40px;
+  margin: 10px;
+  background-color: #B6E7FF;
+}
+
+/*light pink #FBB3FF*/
+/*green #00B522*/
+/*yellow #FFF75A*/
+/*light green #D8FFB6*/
+/*blue #52A1FF*/
+/*light blue #B6E7FF*/
