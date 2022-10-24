@@ -7,41 +7,61 @@
 header {
   width: 100%;
   padding: 30px 20px;
-  background-color: #FF00FF;
+  background-color: #ff00ff;
+  display: flex;
+  justify-content: flex-end; /*Flexアイテムを全て右へ寄せる設定*/
 }
 
-.main_right {
-  main-width: 700px;
-  padding: 20px;
-  background-color: #00B522;
+.header_box {
+  height: 70px;
+  flex-basis: 140px;
+  margin: 0 10px;
+  background-color: #fbb3ff;
 }
 
-.main-box {
-  height: 130px;
-  margin: 10px;
-  background-color: #FFF75A;
+.header_box:first-child {
+  margin-right: auto; /*設定したアイテムの右側に自動的に余白を作ることができる*/
+}
+
+main {
+  display: flex; /*Flexboxの利用*/
+  justify-content: center; /*要素の横並び・中央寄せ*/
 }
 
 .main_left {
   width: 300px;
-  background-color: #D8FFB6;
+  background-color: #d8ffb6;
+}
+
+.main_right {
+  max-width: 700px;
+  padding: 20px;
+  background-color: #00b522;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.main-box {
+  height: 130px;
+  flex-basis: 200px;
+  margin: 10px;
+  background-color: #fff75a;
 }
 
 footer {
   width: 100%;
   padding: 20px;
-  background-color: #52A1FF;
+  background-color: #52a1ff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer_img {
   height: 40px;
+  flex-basis: 45%;
+  max-width: 600px;
   margin: 10px;
-  background-color: #B6E7FF;
+  background-color: #b6e7ff;
 }
-
-/*light pink #FBB3FF*/
-/*green #00B522*/
-/*yellow #FFF75A*/
-/*light green #D8FFB6*/
-/*blue #52A1FF*/
-/*light blue #B6E7FF*/
